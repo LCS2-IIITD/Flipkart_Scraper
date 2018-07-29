@@ -613,3 +613,13 @@ JavaScript error: https://img1a.flixcart.com/www/linchpin/fk-cp-zion/js/raven.3.
 1532836612507	Marionette	INFO	Listening on port 42777
 1532836612579	Marionette	WARN	TLS certificate errors will be ignored for this session
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1532836891613	geckodriver	INFO	geckodriver 0.21.0
+1532836891619	geckodriver	INFO	Listening on 127.0.0.1:39955
+1532836892622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BhxFVLR1jAyP"
+*** You are running in headless mode.
+1532836894141	Marionette	INFO	Listening on port 38551
+1532836894251	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 28457, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 28457, Gecko_IOThread] WARNING: pipe error (52): Connection reset by peer: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 28457, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
