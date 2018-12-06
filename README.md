@@ -18,15 +18,15 @@ All of this is scraped as a TinyDB object and stored in the corresponding file. 
 ### Reviews
 ```
 Review = {
-  'id' : 'Review ID'
+ 	'id' : 'Review ID'
 	'review_url' : 'Review URL', 
  	'author_name': 'Name of author', 
 	'p_id' : 'Product ID', 
-  'date' : 'Date posted', 
+ 	'date' : 'Date posted', 
 	'verified_purchase': 'True means verified, False otherwise', 
 	'rating' : 'Rating'
 	'title' : 'Review title', 
-  'text': 'Review text', 
+	'text': 'Review text', 
 	'upvotes' : 'Number of upvotes',
 	'downvotes' : 'Number of downvotes',
 	'exists': 'True means review still present, False otherwise' 
