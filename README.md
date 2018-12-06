@@ -16,7 +16,7 @@ Run the `scrape_products.py` after adding links to all the products that are req
 All of this is scraped as a TinyDB object and stored in the corresponding file. Details about tiny db and related documentation can be read on [TinyDB's official documentation](https://tinydb.readthedocs.io/en/latest/).  
 
 ### Reviews
-```json
+```
 Review = {
   'id' : 'Review ID'
 	'review_url' : 'Review URL', 
@@ -34,7 +34,7 @@ Review = {
 ```
 
 ### Products
-```json
+```
 Review = {
 		'id' : 'Some kind of ID'
 		'item_id' : 'Another kind of ID', 
