@@ -4,7 +4,7 @@ Flipkart Scraper
 ## Run instructions
 
 - Install selenium and a corresponding web-browser driver (prefer firefox gecko driver for the headless mode)  
-- Install TinyDB (pip install tinydb)  
+- Install TinyDB (`pip install tinydb`)  
 
 ### For product reviews
 Run the `scrape_flipkart_reviews.py` after adding links to all the products for which reviews are desired to be scraped [here](https://github.com/LCS2-IIITD/Flipkart_Scraper/blob/master/scrape_flipkart_reviews.py#L36).  
@@ -35,25 +35,25 @@ Review = {
 
 ### Products
 ```
-Review = {
-		'id' : 'Some kind of ID'
-		'item_id' : 'Another kind of ID', 
-	 	'listing_id': 'Yet another kind of ID', 
-		'name' : 'Product Name', 
-	 	'subtitle' : Some weird thing but letting it be,
-		'rating':{
-	           "type" : "RatingValue",
-	           "average" : 4.3,
-	           "base" : 5,
-	           "breakup" : [43, 23, 56, 267, 513],
-	           "count" : 902,
-	           "histogramBaseCount" : 513,
-	           "reviewCount" : 176
-	 	},
-	 	'link': Link to product,
-	 	'brand': Brand name,
-		'price': Price,
-		'flipkart_assured': true/false about flipkart assured on that product, 
-		'category': analytics category
+Product = {
+	'id' : 'Some kind of ID'
+	'item_id' : 'Another kind of ID', 
+	'listing_id': 'Yet another kind of ID', 
+	'name' : 'Product Name', 
+	'subtitle' : Some weird thing but letting it be,
+	'rating':{
+	   "type" : "RatingValue",
+	   "average" : 4.3,
+	   "base" : 5,
+	   "breakup" : [43, 23, 56, 267, 513],
+	   "count" : 902,
+	   "histogramBaseCount" : 513,
+	   "reviewCount" : 176
+	},
+	'link': Link to product,
+	'brand': Brand name,
+	'price': Price,
+	'flipkart_assured': true/false about flipkart assured on that product, 
+	'category': analytics category
 }
 ```
